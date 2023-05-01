@@ -95,7 +95,7 @@ ament_export_dependencies(Qt5SerialPort)
 ament_export_targets(export_witmotion_ros HAS_LIBRARY_TARGET)
 ament_export_targets(export_witmotion-uart HAS_LIBRARY_TARGET)
 ament_export_include_directories(${INCLUDE_DIRS})
-ament_export_libraries(witmotion_ros witmotion-uart ${LIBS})
+# ament_export_libraries(witmotion_ros witmotion-uart ${LIBS})
 
 
 install(
